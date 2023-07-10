@@ -88,6 +88,8 @@ nav{
 /* Fine Header */
 
 /* Inizio Main */
+
+/* Prima sezione */
 #site-main{
     background-color: var(--drbx-bkgr-and-square6);
     height: 525px;
@@ -107,10 +109,7 @@ nav{
     padding-left:15px;
    
 }
-.row{
-    width: 100%;
-    
-}
+
 .col-left{
     width: calc(100% / 12 * 4);
     background-color: var(--drbx-bkgr-and-square6);
@@ -142,4 +141,36 @@ nav{
     width: 700px;
     height: 400px;
     margin-top:15px;
+}
+/* Fine Prima sezione */
+
+.white{
+    height: 30px;
+}
+/* Inizia Seconda sezione */
+.subscription{
+    background-color: var(--drbx-white);
+    height: 2000px;
+    max-width: 1240px;
+    width: 100%;
+}
+
+.container2{
+    width: 80%;
+    background-color: red;
+    height: 2000px;
+    max-width: 1240px;
+    padding-top: 120px;
+    margin:auto;
+}
+
+.descript-sub{
+    padding-left:100px;
+}
+#monthly{
+    padding-right: 25px;
+    
+}
+.descript-sub>h2{
+    padding-bottom: 25px;
 }
