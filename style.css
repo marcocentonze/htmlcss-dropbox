@@ -90,7 +90,7 @@ nav{
 /* Inizio Main */
 #site-main{
     background-color: var(--drbx-bkgr-and-square6);
-    height: 450px;
+    height: 525px;
     max-width: 1240px;
     width: 100%;
    
@@ -129,6 +129,7 @@ nav{
     padding: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    border: none;
 }
 .col-left p{
     margin-top:15px;
@@ -140,4 +141,5 @@ nav{
 .col-right>img{
     width: 700px;
     height: 400px;
+    margin-top:15px;
 }
