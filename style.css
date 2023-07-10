@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utility */
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+/* fine Utility */
+
+/* Header */
+header{
+    max-width: 1240px;
+}
+nav{
+    width: 100%;
+    background-color: aqua;
+    height: 80px;
+    
+}
+.nav-left{
+    width:50%;
+    background-color: blue;
+    
+    
+}
+.nav-right{
+    width: 50%;
+    background-color: aquamarine;
+}
