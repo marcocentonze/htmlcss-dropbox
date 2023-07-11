@@ -59,8 +59,9 @@
       <section class="subscription">
         <div class="container2">
           <div class="pad-left">
-          <h2>Trova il piano business che fa per te</h2>
-
+            <div class="title-bot">
+               <h2>Trova il piano business che fa per te</h2>
+            </div>
           <form>
           <input type="radio" value="Fatturazione mensile" checked>
           <label for="monthly" id="monthly"  >Fatturazione mensile</label>
@@ -69,8 +70,8 @@
         </form>
         </div>
 
-        
-        <div class="row d-flex pad-left">
+        <!--prima col-->
+        <div class="row d-flex col-pad">
           <div class="col-3">
             <div class="utente"> 
               <span><i class="fa-solid fa-user"></i>
@@ -111,28 +112,30 @@
             </div>
 
           </div>
+
+          <!--Seconda col-->
           <div class="col-3">
             <div class="utente"> 
-              <span><i class="fa-solid fa-user"></i>
-              Singolo</span>
+              <span><i class="fa-solid fa-people-group"></i>
+              Team</span>
             </div>
             <div class="card pad-card">
-              <h3>Professional</h3>
+              <h3>Advanced</h3>
 
-              <span class="price"><strong>€ 12.00</strong></span><br>
-              <span class="price">/mese</span>
+              <span class="price"><strong>€ 18.00</strong></span><br>
+              <span class="price">/utentemese</span>
             </div>
 
 
             <div class="info-card pad-card">
                <div class="pad-bot">
-               <span><i class="fa-solid fa-user"></i> 1 utente</span>
+               <span><i class="fa-solid fa-people-group"></i> 3 o più utenti</span>
              </div>
              <div class="pad-bot">
-               <span><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span>
+               <span><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</span>
              </div>
              <div class="pad-bot">
-               <span><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+               <span><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro i file del tuo team</span>
              </div>
             </div>
 
@@ -146,40 +149,45 @@
 
             <div class="info-sub pad-card">
               <div class="pad-bot"><h4>Punti Salienti del piano</h4></div>
-               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</div>
+               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</div>
                <div class="pad-bot"> <i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</div>
+               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</div>
+               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</div>
+               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</div>
             </div>
 
           </div>
-          </div>
+          
+
+          <!--Terza col-->
           <div class="col-3">
             <div class="utente"> 
-              <span><i class="fa-solid fa-user"></i>
-              Singolo</span>
+              <span><i class="fa-solid fa-building"></i>
+              Azienda</span>
             </div>
             <div class="card pad-card">
-              <h3>Professional</h3>
+              <h3>Enterprise</h3>
 
-              <span class="price"><strong>€ 12.00</strong></span><br>
-              <span class="price">/mese</span>
+              <span class="price"><strong>Contattaci</strong></span><br>
+              <span class="price">-</span>
             </div>
 
 
             <div class="info-card pad-card">
                <div class="pad-bot">
-               <span><i class="fa-solid fa-user"></i> 1 utente</span>
+               <span><i class="fa-solid fa-user"></i> 10 o più utenti</span>
              </div>
              <div class="pad-bot">
-               <span><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span>
+               <span><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</span>
              </div>
              <div class="pad-bot">
-               <span><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+               <span><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata aiutando gli amministratori su larga scala</span>
              </div>
             </div>
 
 
             <div class="card-button pad-card">
-              <button>Prova gratis per 30 giorni</button>
+              <button id="bnt-pad">Contattaci</button>
             </div>
             <div class="pad-card">oppure <a href="#">acquista ora</a></div>
 
@@ -187,13 +195,15 @@
 
             <div class="info-sub pad-card">
               <div class="pad-bot"><h4>Punti Salienti del piano</h4></div>
-               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</div>
                <div class="pad-bot"> <i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</div>
+               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Servizio assistenza 24h</div>
+               <div class="pad-bot"> <i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</div>
             </div>
 
           </div>
           </div>
         </div>
+     
         <div class="col-1"></div>
         </div>
 

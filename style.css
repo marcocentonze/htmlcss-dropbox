@@ -158,8 +158,7 @@ nav{
 
 .container2{
     width: 80%;
-    background-color: red;
-    height: 2000px;
+    height: 1250px;
     max-width: 1240px;
     padding-top: 120px;
     margin:auto;
@@ -167,6 +166,7 @@ nav{
 
 .pad-left{
     padding-left:100px;
+    padding-bottom:40px;
 }
 #monthly{
     padding-right: 25px;
@@ -178,15 +178,14 @@ nav{
 .row{
     width: 100%;
     height: 100%;
-    gap: 40px;
+    gap: 10px;
 }
 
 .col-3{
-    background-color: #0160FF;
-    width: calc(100%/3);
-    height: 100%;
+    width: calc(75%/3);
+    height: 1110px;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     
 }
 .utente{
@@ -194,7 +193,7 @@ nav{
     border-bottom: 1px solid black;
 }
 .pad-card{
-    padding-left: 30px;
+    padding-left: 18px;
     padding-bottom: 35px;
 }
 .card>h3,.price{
@@ -211,6 +210,8 @@ nav{
     background-color: var(--drbx-accent);
     color: white;
     padding:10px 20px;
+    border: none;
+    
 }
 .block {
     height: 2rem;
@@ -221,4 +222,13 @@ nav{
 .info-card>h4,i{
     padding-bottom: 20px;
 }
-
+.col-pad{
+    padding-left:65px;
+}
+.title-bot{
+    padding-bottom:30px;
+}
+#bnt-pad{
+padding:10px 64px;
+border: none;
+}
