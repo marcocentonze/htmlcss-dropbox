@@ -151,7 +151,7 @@ nav{
 /* Inizia Seconda sezione */
 .subscription{
     background-color: var(--drbx-white);
-    height: 2000px;
+    height: 1410px;
     max-width: 1240px;
     width: 100%;
 }
@@ -231,4 +231,42 @@ nav{
 #bnt-pad{
 padding:10px 64px;
 border: none;
+}
+
+.col-1{
+    width: 70%;
+    border: 1px solid var(--drbx-bkgr-and-square6);
+    height: 250px;
+    margin-left:215px;
+}
+.team{
+    border-bottom:1px solid var(--drbx-bkgr-and-square6);
+    text-align: center;
+    vertical-align: 5px;
+    height: 40px;
+    
+}
+.team>span{
+    vertical-align: -10px;
+}
+.col-1-card{
+    padding-left:15px;
+    padding-top:30px;
+    position: relative;
+}
+#ent-pad{
+    padding-bottom:20px;
+}
+#p-bot{
+    padding-bottom:40px;
+}
+#btn-absolute{
+    position:absolute;
+    top:28px;
+    right:15px;
+    background-color: var(--drbx-accent);
+    border: none;
+    color: white;
+    padding:10px 30px;
+
 }
