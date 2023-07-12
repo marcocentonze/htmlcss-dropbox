@@ -371,35 +371,82 @@ margin-right:150px;
 .row-section6{
     width: 100%;
     height: 400px;
-    background-color: red;
+   
  
 }
 .col-3-1-3{
     width: calc(100%/3);
     height: 100%;
-    background-color: blue;
-    border: 2px solid black;
+    
+    
 }
-.small-row-top{
-    height: 50%;
-    width: 100%;
-    background-color: #60092B;
-    border: 2px solid black;
+.small-row{
+   
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .col-clienti{
-    width:calc(100%/2);
-    height: 100%;
-    background-color: #0192CE;
-   
+    width:50%;
+    aspect-ratio: 1/1;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+    
 }
-.small-row-bot{
-    height: 50%;
-    width: 100%;
-    background-color: #60092B;
-    border: 2px solid black;
+.small-row img{
+    width: 50%;
 }
+/* colori immagini */
+#designit{
+    background-color: var(--drbx-square1);
+}
+#arizona{
+    background-color: var(--drbx-square2-alternativeFont);
+}
+#florida{
+    background-color: var(--drbx-square3);
+}
+#topps{
+    background-color: var(--drbx-square4);
+}
+#world-bicycle{
+    background-color: var(--drbx-square5);
+}
+#hearst{
+    background-color: var(--drbx-bkgr-and-square6);
+}
+#lonely{
+    background-color: var(--drbx-square7);
+}
+#clear{
+    background-color: var(--drbx-square8);
+}
+/* fine colori immagini */
 
-
-.small-row-top{
-    width: ;
+.block2 {
+    height: 2rem;
+    width: 4.2rem;
+    border-top: 1px solid #F0F0F1;
+    margin-left:30px;
+    padding-bottom: 30px;
 }
+.partner img{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.partner-text{
+    padding-left:30px;
+    padding-right: 30px;
+    font-size: smaller;
+    color: black;
+}
+#pad30{
+    padding-bottom:30px;
+}
+/* fine sesta sezione */
