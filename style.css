@@ -473,14 +473,80 @@ margin-right:150px;
 .container-8{
     width: 50%;
     margin:auto;
+    height: 500px;
 }
 
 .topic {
     width: 100%;
-    border-bottom: 2px solid lightgray;
+    
     
 }
 .answer {
     height: 0;
-    overflow: hidden;
+    display: none;
+}
+.container-8>h2{
+    padding-bottom:35px;
+    padding-top:100px;
+}
+.title>h4{
+    min-width: 900px;
+    border-top:1px solid black;
+    
+    padding:25px 0;
+}
+#arrow{
+float: right;
+}
+#last-border{
+    border-bottom:1px solid black;
+}
+
+
+.faq:hover p{
+    display: block;
+}
+.faq:hover i{
+    transform:rotate(180deg);
+}
+/* fine ottava sezione */
+
+/* inizio footer */
+footer{
+    background-color: var(--drbx-black);
+    padding: 3rem 0 2rem;
+    color: var(--drbx-white);
+}
+.container-footer{
+    width: 100%;
+    
+}
+
+footer h3 {
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: var(--drbx-white);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul li {
+    list-style: none;
+    
+}
+footer span {
+    font-size: 1rem;
+}
+.menu-footer{
+    padding:2rem;
+    min-width:250px;
+}
+
+.languages{
+    padding-left:25px;
 }
