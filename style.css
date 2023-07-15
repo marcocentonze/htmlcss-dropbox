@@ -106,14 +106,12 @@ nav{
 #site-main{
     background-color: var(--drbx-bkgr-and-square6);
     height: 525px;
-    max-width: 1240px;
     width: 100%;
 }
 .jumbotron{
     width: 80%;
     background-color: var(--drbx-bkgr-and-square6);
     height: 450px;
-    max-width: 1240px;
     margin:0 auto;
 }
 
@@ -174,14 +172,12 @@ nav{
 .subscription{
     background-color: var(--drbx-white);
     height: 1410px;
-    max-width: 1240px;
     width: 100%;
 }
 
 .container2{
     width: 80%;
     height: 1250px;
-    max-width: 1240px;
     padding-top: 120px;
     margin:auto;
 }
